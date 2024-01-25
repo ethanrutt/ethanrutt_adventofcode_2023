@@ -22,3 +22,5 @@ make
 ./solve < test/input.txt
 ```
 
+Conflict creation
+
