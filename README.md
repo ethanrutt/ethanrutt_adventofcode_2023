@@ -21,4 +21,9 @@ cmake .
 make
 ./solve < test/input.txt
 ```
+Creating a different conflict
+bruh
+bruh
+bruh
+
 
