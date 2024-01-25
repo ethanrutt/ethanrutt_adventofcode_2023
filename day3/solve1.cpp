@@ -7,7 +7,6 @@
 using namespace std;
 
 const string NUMS = "0123456789";
-const string SYMBOLS = "#$%&*+-/=@";
 const set<char> SYMBOLS_SET = {'#', '$', '%', '&', '*', '+', '-', '/', '=', '@'};
 
 pair<int, int> find_num(int start_pos, string s) {
