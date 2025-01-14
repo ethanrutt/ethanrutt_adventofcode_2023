@@ -56,19 +56,21 @@ int get_last_num(string s) {
 }
 
 int main() {
-    vector<string> input(1001);
+    vector<string> the_input(1001);
     unsigned int i = 0;
 
-    while (getline(cin, input[i++]));
+    cout << "tryna create some conflicts bro?" << std::endl;
 
-    int sum = 0;
+    while (getline(cin, the_input[i++]));
 
-    for (auto i : input) {
-        sum += get_first_num(i) * 10;
-        sum += get_last_num(i);
+    int the_answer = 0;
+
+    for (auto i : the_input) {
+        the_answer += get_first_num(i) * 10;
+        the_answer += get_last_num(i);
     }
 
-    cout << "sum = " << sum << endl;
+    cout << "sum = " << the_answer << endl;
 
     return 0;
 }
